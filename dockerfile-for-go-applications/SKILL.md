@@ -1,4 +1,3 @@
-```markdown
 ---
 name: dockerfile-for-go-applications
 description: Production-grade, secure, and minimal Dockerfile best practices for Go backend projects (2026 standards). Uses multi-stage builds with `golang:1.xx-alpine` as builder and `scratch` (or `distroless/static`) for the final image. Incorporates layer caching optimization, static binary compilation (CGO_ENABLED=0), binary stripping, non-root user, HEALTHCHECK, labels, .dockerignore, and seamless integration with your existing skills (migrations, logging, database, etc.). Always use this template instead of single-stage or Alpine-only Dockerfiles.

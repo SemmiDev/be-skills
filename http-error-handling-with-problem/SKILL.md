@@ -1,4 +1,3 @@
-```markdown
 ---
 name: http-error-handling-with-problem
 description: Standardizes HTTP error responses in Go backend APIs using github.com/semmidev/problem (full RFC 7807 Problem Details implementation). Use this skill for any HTTP handler that needs to return consistent, machine-readable errors (4xx/5xx) with optional custom extensions, error wrapping, and direct ResponseWriter integration. Always prefer this over manual JSON error responses or plain http.Error.

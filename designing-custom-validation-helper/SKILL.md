@@ -1,4 +1,3 @@
-```markdown
 ---
 name: designing-custom-validation-helper
 description: Canonical technique and file structure for building a reusable, localized validation helper. Inspired directly by the design patterns in ethos-go/internal/common/validator (message.go + rules.go + validator.go). This skill shows exactly how to design, structure, and implement your own internal validation package — no external library dependency beyond go-playground/validator/v10. It guarantees consistent field-level errors, full English/Indonesian localization, Indonesian-specific rules, and perfect integration with the http-error-handling-with-problem skill (always returns 422 + field_errors extension).

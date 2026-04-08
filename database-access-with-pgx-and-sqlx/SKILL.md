@@ -1,4 +1,3 @@
-```markdown
 ---
 name: database-access-with-pgx-and-sqlx
 description: Idiomatic, high-performance, and fully context-aware PostgreSQL layer for Go backend projects using pgx/v5 (native driver + pgxpool) + sqlx (for struct scanning, named queries, and convenience). Includes clean Repository pattern, transaction boundaries managed via context propagation (transactor-style), automatic rollback on error, and perfect integration with secure-idiomatic-error-handling, structured-logging-with-slog, and http-error-handling-with-problem skills. Always use this abstraction instead of raw *sql.DB, direct pgx.Conn, or manual transaction handling.
@@ -293,5 +292,3 @@ Follow this skill and every database interaction in your Go backends will be:
 - Transaction-safe (context propagation)
 - Testable & observable
 - Production-ready (pool, context, errors)
-
-When in doubt, copy the `RunInTx` + `GetQuerier` pattern above — this is the exact design now used across all SemmiDev backend projects after adopting 2025/2026 pgx + sqlx best practices.

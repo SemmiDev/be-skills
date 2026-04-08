@@ -1,4 +1,3 @@
-```markdown
 ---
 name: data-table-handling-with-filter-pagination
 description: Canonical, production-grade data table handling for Go backend APIs using the exact filter/pagination pattern from ethos-go/internal/common/model/filter.go (enhanced with 2026 best practices). Provides a reusable Filter struct (pagination, keyword search, sorting, date ranges, status filters), Paging metadata, safe dynamic query building with pgx + sqlx, column whitelisting, and perfect integration with database-access-with-pgx-and-sqlx, secure-idiomatic-error-handling, and structured-logging-with-slog. Always use this for any list/table endpoint instead of manual query params or ad-hoc pagination logic.
@@ -395,5 +394,3 @@ Follow this skill and every data table in your Go backends will be:
 - Secure
 - Performant
 - Frontend-friendly
-
-When in doubt, copy the `FilterFromRequest` + repo `List` pattern above — this is the exact evolved design used across all SemmiDev backend projects.

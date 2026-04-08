@@ -1,4 +1,3 @@
-```markdown
 ---
 name: database-migrations-with-golang-migrate
 description: Production-grade database schema migration technique for Go backend projects using golang-migrate (go-migrate) with PostgreSQL. Directly inspired by the techschool/simplebank project (Makefile-driven CLI approach) while incorporating 2026 best practices: timestamp-based versioning to avoid merge conflicts, small focused migrations, always-reversible down scripts, idempotency where possible, and integration with the existing pgx + sqlx database layer. Migrations are CLI-first (via Makefile) for safety and control — never auto-run on app startup in production. Perfectly complements the database-access-with-pgx-and-sqlx skill.
@@ -226,5 +225,3 @@ Follow this skill and every schema change in your Go backends will be:
 - Safe to rollback
 - Team-friendly
 - Production-ready
-
-When in doubt, use `make migrate-create` + `make migrate-up` — this is the exact evolved pattern used across SemmiDev backend projects, building on the simplebank foundation with 2026 improvements.

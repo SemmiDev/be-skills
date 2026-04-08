@@ -1,4 +1,3 @@
-```markdown
 ---
 name: structured-logging-with-slog
 description: Production-grade, structured logging for Go backend projects using the standard library `log/slog` (Go 1.21+). Provides JSON output by default, request-correlation middleware, context propagation (request_id, trace_id), SafeError integration, sensitive-data redaction via LogValuer, and sloglint enforcement. Follows 2026 best practices from Dash0, Better Stack, and "Logging Sucks" principles: wide events, high-cardinality context, zero sensitive data leaks, and minimal log volume. Always use this instead of fmt.Printf, log.Printf, or third-party loggers like zap/zerolog unless you have extreme performance needs.

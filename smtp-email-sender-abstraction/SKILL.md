@@ -1,4 +1,3 @@
-```markdown
 ---
 name: smtp-email-sender-abstraction
 description: Idiomatic, testable SMTP email sender for Go backend projects using github.com/wneessen/go-mail (modern, context-aware, full-featured SMTP library with HTML/attachments/template support). Provides a clean Sender interface + Config for dependency injection and mocking. Perfect integration with http-error-handling-with-problem skill and validation. Always use this abstraction instead of raw net/smtp or direct library calls in handlers/services.

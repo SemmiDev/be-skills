@@ -1,4 +1,3 @@
-```markdown
 ---
 name: secure-idiomatic-error-handling
 description: Production-grade, secure, and fully idiomatic Go error handling pattern for backend projects. Combines Go 1.23+ best practices (errors.Is/As, wrapping, custom types) with the SafeError pattern from JetBrains 2026 guidelines. Guarantees no sensitive data leaks to clients while preserving full debug info for logs. Perfectly integrates with http-error-handling-with-problem (RFC 7807) and all previous skills (validation, storage, email, etc.). Always use this instead of raw fmt.Errorf, panic, or direct err.Error() exposure.

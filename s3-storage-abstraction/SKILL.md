@@ -1,4 +1,3 @@
-```markdown
 ---
 name: s3-storage-abstraction
 description: Idiomatic, testable S3 (and S3-compatible) storage layer for Go backend projects using a clean interface + wrapper pattern. Built on AWS SDK for Go v2. Provides Upload/Download/Delete/Presigned URLs + large-file support via manager. Perfectly integrates with http-error-handling-with-problem and validation skills. Always use this abstraction instead of raw *s3.Client calls.
